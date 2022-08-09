@@ -60,7 +60,11 @@ $ cp .env.example .env
 
 ```bash
 # Copy the .env.example
-$ cp .env.example .env
+$ npm install
+# Run migrations
+$ npm run migrations:run
+# Run application
+$ npm run start:dev
 ```
 
 ## Create a SQS [Optional]
